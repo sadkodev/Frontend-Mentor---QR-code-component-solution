@@ -19,7 +19,7 @@
   /* Typography */
   --fs-paragraph: 15px;
   /* font */
-  --ff: 'Outfit', sans-serif;
+  --ff: [Outfit](https://fonts.google.com/specimen/Outfit);
   --fstyle-normal: 400;
   --fstyle-bold: 700;
 }
@@ -46,7 +46,6 @@ body {
   padding: 1rem;
   border-radius: 16px;
   box-shadow: 1px 1px 16px var(red);
-  font-family: var(--ff);
 }
 
 .card__qr_img {
@@ -67,6 +66,7 @@ body {
 
 .card__title {
   font-size: 1.2rem;
+  font-family: var(--ff);
   font-weight: var(--fstyle-bold);
   color: var(--dark-blue);
 }
@@ -79,7 +79,6 @@ body {
 }
 
 .attribution {
-  font-family: var(--ff);
   font-size: 1rem;
   text-align: center;
 }
